@@ -1,0 +1,172 @@
+[
+  {
+    "id": 3530,
+    "name": "Qabāghlū",
+    "state": "",
+    "country": "IR",
+    "coord": {
+      "lon": 46.168499,
+      "lat": 36.173302
+    }
+  },
+  {
+    "id": 2809916,
+    "name": "Wettsaasen",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 9.06667,
+      "lat": 50.633331
+    }
+  },
+  {
+    "id": 2973823,
+    "name": "Steenvoorde",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": 2.58244,
+      "lat": 50.810459
+    }
+  },
+  {
+    "id": 3074944,
+    "name": "Hrádek nad Nisou",
+    "state": "",
+    "country": "CZ",
+    "coord": {
+      "lon": 14.84455,
+      "lat": 50.852791
+    }
+  },
+  {
+    "id": 3176943,
+    "name": "Fiumalbo-Dogana",
+    "state": "",
+    "country": "IT",
+    "coord": {
+      "lon": 10.6472,
+      "lat": 44.179249
+    }
+  },
+  {
+    "id": 3439312,
+    "name": "Departamento de Caaguazú",
+    "state": "",
+    "country": "PY",
+    "coord": {
+      "lon": -55.833328,
+      "lat": -25.33333
+    }
+  },
+  {
+    "id": 3439705,
+    "name": "Oriental Republic of Uruguay",
+    "state": "",
+    "country": "UY",
+    "coord": {
+      "lon": -56.0,
+      "lat": -33.0
+    }
+  },
+  {
+    "id": 3514783,
+    "name": "Veracruz",
+    "state": "",
+    "country": "MX",
+    "coord": {
+      "lon": -96.133331,
+      "lat": 19.200001
+    }
+  },
+  {
+    "id": 4891077,
+    "name": "Elwood",
+    "state": "IL",
+    "country": "US",
+    "coord": {
+      "lon": -88.111717,
+      "lat": 41.403919
+    }
+  },
+  {
+    "id": 4891240,
+    "name": "Erie",
+    "state": "IL",
+    "country": "US",
+    "coord": {
+      "lon": -90.079292,
+      "lat": 41.656422
+    }
+  },
+  {
+    "id": 1274987,
+    "name": "Kannur",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 75.357628,
+      "lat": 11.86752
+    }
+  },
+  {
+    "id": 1274989,
+    "name": "Candolim",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 73.762589,
+      "lat": 15.51807
+    }
+  },
+  {
+    "id": 1275004,
+    "name": "Kolkata",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 88.36972,
+      "lat": 22.569719
+    }
+  },
+  {
+    "id": 1275016,
+    "name": "Byādgi",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 75.48333,
+      "lat": 14.68333
+    }
+  },
+  {
+    "id": 1275019,
+    "name": "Buxar",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 83.98333,
+      "lat": 25.58333
+    }
+  },
+  {
+    "id": 71296900.0,
+    "name": "Голубинка",
+    "state": "",
+    "country": "UA",
+    "coord": {
+      "lon": 33.92,
+      "lat": 44.59
+    }
+  },
+  {
+    "id": 102908597.0,
+    "name": "Gerton",
+    "state": "",
+    "country": "US",
+    "coord": {
+      "lon": -82.348056,
+      "lat": 35.479167
+    }
+  }
+]

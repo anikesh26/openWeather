@@ -1,0 +1,31 @@
+<div class="container" fxLayout="column" fxLayoutAlign="space-around center">
+  <mat-form-field appearance="fill">
+    <mat-label>Choose City</mat-label>
+    <mat-select [(ngModel)]="selectedValue" (ngModelChange)="weatherData()">
+      <mat-option *ngFor="let cities of cityList" [value]="cities">
+        {{cities.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-card class="example-card" *ngIf="weekReport">
+    <mat-card-header fxLayout="column" fxLayoutAlign="space-around center">
+      <mat-card-title>Weather on {{selectedValue!.name}}</mat-card-title>
+      <h4>{{weekReport.current!.dt! * 1000 | date:'dd/MM/yy, h:mm a'}}</h4>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <img [src]="weatherIconURL + weekReport.current!.weather[0]!.icon + '.png'" [alt]="weekReport.current!.weather[0]!.description"> {{weekReport.current!.weather[0]!.description}} / {{weekReport!.current!.temp}}°
+      </div>
+      <hr>
+      <div fxLayout="row">
+        <div class="weekReport" *ngFor="let weekData of weekReport.daily">
+          <h4>{{weekData!.dt! * 1000 | date:'dd/MM/yy, h:mm a'}}</h4>
+          <div fxLayout="row" fxLayoutAlign="space-around center">
+            <img [src]="weatherIconURL + weekData.weather[0]!.icon + '.png'" [alt]="weekData.weather[0]!.description"> {{weekData.weather[0]!.description}} /
+            {{weekData?.temp?.day}}°
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
